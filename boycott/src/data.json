@@ -1,0 +1,181 @@
+[
+  {
+      "_id": {
+          "$oid": "653b3914cd29c7816b3c13bf"
+      },
+      "name": "food",
+      "display": "Food طعام",
+      "data": [
+          {
+              "product": "Lipton",
+              "replacement": "شاي العروسة"
+          },
+          {
+              "product": "Nescafe",
+              "replacement": ""
+          },
+          {
+              "product": "Danone",
+              "replacement": ""
+          },
+          {
+              "product": "Cadbury",
+              "hint": "chocolate",
+              "replacement": "Corona"
+          }
+      ]
+  },
+  {
+      "_id": {
+          "$oid": "653b3914cd29c7816b3c13c0"
+      },
+      "name": "drink",
+      "display": "Drinks مشروبات",
+      "data": [
+          {
+              "product": "Fanta",
+              "replacement": "Tropicana Frutz"
+          },
+          {
+              "product": "Sprit",
+              "replacement": "Spiro Spathis سبيرو سباتس"
+          },
+          {
+              "product": "7up",
+              "replacement": "Big COLA"
+          },
+          {
+              "product": "Pepsi",
+              "replacement": "Big COLA"
+          },
+          {
+              "product": "Mountain Dew",
+              "replacement": "Sinakola"
+          },
+          {
+              "product": "Redbull",
+              "replacement": "VOLT"
+          },
+          {
+              "product": "CocaCola",
+              "replacement": "Sinakola"
+          },
+          {
+              "product": "Aquafina",
+              "hint": "water",
+              "replacement": "Hayah"
+          },
+          {
+              "product": "Nestle",
+              "hint": "water",
+              "replacement": "Hayah"
+          }
+      ]
+  },
+  {
+      "_id": {
+          "$oid": "653b3914cd29c7816b3c13c1"
+      },
+      "name": "eat",
+      "display": "Eateries المطاعم",
+      "data": [
+          {
+              "product": "Starbucks",
+              "replacement": "Coffee Lab"
+          },
+          {
+              "product": "KFC",
+              "replacement": "Bazooka"
+          },
+          {
+              "product": "Macdonalds",
+              "replacement": "Willy's"
+          },
+          {
+              "product": "Hardee's",
+              "replacement": "Zack's"
+          },
+          {
+              "product": "Papa Johns",
+              "replacement": "Vinyy's"
+          }
+      ]
+  },
+  {
+      "_id": {
+          "$oid": "653b3914cd29c7816b3c13c2"
+      },
+      "name": "clean",
+      "display": "Cleaning Supplies معدات تنظيف",
+      "data": [
+          {
+              "product": "Signal",
+              "hint": "معجون",
+              "replacement": ""
+          },
+          {
+              "product": "Persil",
+              "replacement": ""
+          },
+          {
+              "product": "Tide",
+              "replacement": ""
+          },
+          {
+              "product": "Arial",
+              "replacement": ""
+          }
+      ]
+  },
+  {
+      "_id": {
+          "$oid": "653b3914cd29c7816b3c13c3"
+      },
+      "name": "beauty",
+      "display": "Beauty Products منتجات التجميل",
+      "data": [
+          {
+              "product": "Garnier",
+              "replacement": "Eva"
+          },
+          {
+              "product": "Dove",
+              "replacement": "StarVile"
+          },
+          {
+              "product": "CeraVe",
+              "replacement": "Alejon"
+          }
+      ]
+  },
+  {
+      "_id": {
+          "$oid": "653b3914cd29c7816b3c13c4"
+      },
+      "name": "stream",
+      "display": "Streaming Services خدمات البث",
+      "data": [
+          {
+              "product": "Netflix",
+              "replacement": "WatchIt"
+          },
+          {
+              "product": "Disney",
+              "replacement": "شاهد"
+          }
+      ]
+  },
+  {
+      "_id": {
+          "$oid": "653b3914cd29c7816b3c13c5"
+      },
+      "name": "deliver",
+      "display": "Shopping & Delivery Platforms منصات التسوق والتوصيل",
+      "data": [
+          {
+              "product": "Amazon",
+              "replacement": "Noon نون"
+          }
+      ]
+  }
+]
