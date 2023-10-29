@@ -11,6 +11,31 @@ body {
   color: #343a40;
 }
 
+.input-container {
+  position: relative;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.clear-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #999;
+  font-size: 18px;
+}
+
+.clear-icon:hover {
+  color: #f00; /* Change the color when hovering */
+}
+
 .note {
   color: red;
   float: right;
@@ -55,7 +80,7 @@ body {
   border-radius: 5px;
 }
 
-.center-container{
+.center-container {
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
@@ -68,12 +93,36 @@ body {
 .menu-card {
   display: inline-block;
   text-align: center;
-  padding: 1rem 4rem;
-
+  padding: 0.2rem 0.2rem;
+  border: 1px solid #ccc; 
+  border-radius: 10%;
   align-items: center;
   justify-content: center;
 }
 
+.menu-card-image{
+  border-radius: 100%;
+}
+
+.menu-card-container {
+  justify-content: center; /* Center align items */
+  align-items: center;
+
+  .menu-card{
+    margin: .2rem;
+  }
+  @media (max-width: 768px) {
+    .menu-card-title {
+      font-size: 100%; /* Define your desired font size for smaller screens */
+    }
+    .menu-card-image {
+      width: 100%; /* Makes the image responsive, scaling down to fit smaller screens */
+    }
+    .menu-card {
+      width: 30%;
+    }
+  }
+}
 
 .header {
   text-align: center;
@@ -83,8 +132,8 @@ body {
   padding-top: 1rem;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.main-header{
-  color: #28a745
+.main-header {
+  color: #28a745;
 }
 .btn {
   float: right;
@@ -92,16 +141,16 @@ body {
   display: inline;
   color: #fff;
   border: none;
-  padding: .5%;
+  padding: 0.5%;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 1.05em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 0.4rem;
 }
 
-.horizontal-line{
+.horizontal-line {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -155,7 +204,7 @@ body {
 .form-control-check input {
   flex: 2;
   height: 20px;
-} 
+}
 
 footer {
   padding-top: 2rem;

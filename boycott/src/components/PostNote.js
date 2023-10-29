@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Button from "./Button";
 
 const PostNote = () => {
@@ -37,7 +37,7 @@ const PostNote = () => {
     }
     //todo post request
     try {
-      const res = postNote();
+      postNote();
     } catch (e) {
       alert("حدث خطأ أثناء إرسال الرسالة. من فضلك حاول مرة أخرى");
       console.log("Error while posting data: ", e);
