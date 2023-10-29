@@ -11,7 +11,7 @@ const Footer = () => {
         <Link to="/about">تعرف علينا وساعدنا</Link>
       )}
       <br/>
-      <p>Version &copy; 1.0.0</p>
+      <p>Version &copy; 2.0.0</p>
     </footer>
   );
 };
