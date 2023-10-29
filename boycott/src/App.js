@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import BoycottProductList from "./components/Boycott-Product-List";
 import BoycottTitle from "./components/Boycott-Title";
+import SearchList from "./components/SearchList";
 
 function App() {
   const [data, setData] = useState([]);
@@ -71,9 +72,10 @@ function App() {
       <div className="container">
         <header className="header">
           <h1 className="main-header">
-            Boycott Products Menu قائمة منتجات المقاطعة
+           قائمة منتجات المقاطعة
           </h1>
         </header>
+        <SearchList map={map} />
 
         <Routes>
           <Route path="/" element={<BoycottTitle data={map} />} />
