@@ -6,6 +6,7 @@ import img from "../images/logo192.png";
 import clean from "../images/clean.jpg";
 import stream from "../images/stream2.webp";
 import logistics from "../images/logistics.png";
+import shop from "../images/shop.png";
 import drinks from "../images/drinks.png";
 import { useNavigate } from "react-router-dom";
 import { DISPLAY, NAME } from "./constants";
@@ -44,6 +45,8 @@ const CardTitle = ({ category }) => {
         return clean;
       case "stream":
         return stream;
+      case "shop":
+        return shop
       default:
         return img;
     }

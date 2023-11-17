@@ -37,6 +37,7 @@ body {
 }
 
 .note {
+  font-size: 70%;
   color: red;
   float: right;
   text-align: right;
@@ -101,7 +102,7 @@ body {
 }
 
 .menu-card-image{
-  border-radius: 100%;
+  border-radius: 25%;
 }
 
 .menu-card-container {

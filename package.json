@@ -1,6 +1,6 @@
 {
   "name": "boycott",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Website for Boycott Products منتجات المقاطعة",
   "main": "server.js",
   "scripts": {

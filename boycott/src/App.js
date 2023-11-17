@@ -75,6 +75,7 @@ function App() {
            قائمة منتجات المقاطعة
           </h1>
         </header>
+        <p className="note">إذا كان لديك أي اقتراح أو توصيات ، يرجى التحقق من الرابط في نهاية الصفحة</p>
         <SearchList map={map} />
 
         <Routes>

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40294b3-547f-4d88-83eb-c2fdd6d8b24f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/boycott/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/boycott/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boycott/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/boycott/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="a40294b3-547f-4d88-83eb-c2fdd6d8b24f" name="Changes" comment="Feature Added: A notice to the help center in the footer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boycott/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/boycott/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boycott/src/components/Boycott-Product-List.js" beforeDir="false" afterPath="$PROJECT_DIR$/boycott/src/components/Boycott-Product-List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boycott/src/components/Note.js" beforeDir="false" afterPath="$PROJECT_DIR$/boycott/src/components/Note.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boycott/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/boycott/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +22,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2XQSdsQNlDMHhfioTSpxkREc3dn" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -33,11 +38,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/habiba.ahmed/Desktop/Aptar/MES-Replatforming",
+    "last_opened_file_path": "C:/Users/habiba.ahmed/Desktop/btee5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\habiba.ahmed\Desktop\btee5\boycott\src\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
@@ -79,10 +93,24 @@
       <option name="presentableId" value="Default" />
       <updated>1698559904867</updated>
       <workItem from="1698559913692" duration="70000" />
+      <workItem from="1700214422495" duration="5283000" />
     </task>
+    <task id="LOCAL-00001" summary="Feature Added: A notice to the help center in the footer">
+      <option name="closed" value="true" />
+      <created>1700228070681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700228070682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feature Added: A notice to the help center in the footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature Added: A notice to the help center in the footer" />
   </component>
 </project>

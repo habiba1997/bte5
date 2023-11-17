@@ -15,7 +15,7 @@ const BoycottProductList = ({ map }) => {
   //todo get data from database if empty
   return (
     <div>
-      <h4 className="note">ملحوظة: دوس على المنتج ليظهر البديل بالأحمر </h4>
+      <p className="note">ملحوظة: دوس على المنتج ليظهر البديل بالأحمر </p>
       <br/>
       <br/>
       <Products itemList={items} />
